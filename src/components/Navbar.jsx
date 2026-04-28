@@ -27,7 +27,7 @@ const Navbar = ({ isDark, toggleTheme }) => {
               <Zap className="h-8 w-8 text-electric-DEFAULT" />
             </motion.div>
             <span className="font-bold text-2xl tracking-wide bg-clip-text text-transparent bg-gradient-to-l from-electric-DEFAULT to-blue-300">
-              إلكترو درايف
+              مصنع التوفير
             </span>
           </Link>
           <div className="flex items-center gap-6">

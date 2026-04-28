@@ -67,7 +67,7 @@ const Home = () => {
               <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">عن الشركة</h2>
               <div className="w-20 h-1 bg-electric-DEFAULT mb-8"></div>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-                في "إلكترو درايف"، نحن لا نبيع السيارات فحسب، بل نصنع المستقبل. رؤيتنا هي قيادة التحول نحو طاقة نظيفة ومستدامة دون التنازل عن الفخامة والأداء العالي.
+                في "مصنع التوفير"، نحن لا نبيع السيارات فحسب، بل نصنع المستقبل. رؤيتنا هي قيادة التحول نحو طاقة نظيفة ومستدامة دون التنازل عن الفخامة والأداء العالي.
               </p>
               
               <div className="space-y-6">
