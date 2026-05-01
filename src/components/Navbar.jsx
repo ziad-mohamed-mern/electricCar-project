@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Moon, Sun, Zap } from 'lucide-react';
+import { Moon, Sun } from 'lucide-react';
 import { motion } from 'framer-motion';
+import logo from '../assets/logo.png';
 
 const Navbar = ({ isDark, toggleTheme }) => {
   const location = useLocation();
@@ -23,12 +24,10 @@ const Navbar = ({ isDark, toggleTheme }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-4">
-            <span className="font-extrabold text-3xl md:text-4xl tracking-wider text-black dark:text-white drop-shadow-sm">
+            <img src={logo} alt="مصنع التوفير" className="h-16 w-auto" />
+            <span className="font-extrabold text-2xl md:text-3xl tracking-wider text-black dark:text-white drop-shadow-sm">
               مصنع التوفير للسيارات الكهربائية
             </span>
-            <div>
-              <Zap className="h-10 w-10 text-electric-DEFAULT drop-shadow-md" />
-            </div>
           </Link>
           <div className="flex items-center gap-6">
             <ul className="hidden md:flex gap-8 font-semibold text-gray-700 dark:text-gray-300">
